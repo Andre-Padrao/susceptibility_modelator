@@ -6,6 +6,21 @@ In order to use this plugin, the user must have the QGIS software. In case the u
 <li><a href="https://matplotlib.org/stable/users/installing.html">matplotlib</a></li>
 <li><a href="https://numpy.org/install/">numpy</a></li>
 </ul>
+<ol>
+If you wish to create an example susceptibility model, please follow these instructions:
+<li>After installing the Susceptibility modelator plugin and its respective dependencies, click on the respective icon at the toolbar;</li>
+<li>Browse for example_geographical_information/Area_treino_3.shp as "Training area";</li>
+<li>Browse for example_geographical_information/FozCoa.shp as "Modelation area";</li>
+<li>Browse for example_geographical_information/raster_nulo.tif as "Null variable raster";</li>
+<li>Browse for example_geographical_information/COS2018_N3.tif as "Variable 1 raster";</li>
+<li>Browse for example_geographical_information/Declive.tif as "Variable 2 raster";</li>
+<li>Browse for example_geographical_information/_ardidas2018.tif as "Occurances A";</li>
+<li>Browse for example_geographical_information/_ardidas2017.tif as "Occurances B";</li>
+<li>Optionally, add the remaining .tif files for extra years of information on fire occurance;</li>
+<li>Browse for the directory where the output files will be saved;</li>
+<li>Click "Run" and await for the processing to complete. This may take some minutes.</li>
+Following the instructions above should generate and open two fire susceptibility models (one for the target area and one for the surrounding training area) and four validation graphics.
+</ol>
 This plugin is associated to the paper "A GIS plugin for wildfire susceptibility modeling: case study in Vila Nova de Foz Côa", by André Padrão et al. (2022), where one can find further details on its development and use. For more information, please contact apadrao@floradata.pt. 
 </body>
 </html>
