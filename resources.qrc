@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/susceptibility_modelator" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

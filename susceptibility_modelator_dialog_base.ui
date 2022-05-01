@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SusceptibilityModelatorDialogBase</class>
+ <widget class="QDialog" name="SusceptibilityModelatorDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Susceptibility Modelator</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>690</width>
+          <height>934</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="27" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Occurances E (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="33" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Occurances H (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>Variable 2 raster</string>
+           </property>
+          </widget>
+         </item>
+         <item row="32" column="0">
+          <widget class="QgsFileWidget" name="occurances_G"/>
+         </item>
+         <item row="18" column="0">
+          <widget class="QgsFileWidget" name="occurances_B">
+           <property name="defaultRoot">
+            <string>D:/biblioteca_suscetibilidade/_ardidas2017.tif</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="0">
+          <widget class="QgsFileWidget" name="occurances_A">
+           <property name="defaultRoot">
+            <string>D:/biblioteca_suscetibilidade/_ardidas2018.tif</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="0">
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>Occurances A</string>
+           </property>
+          </widget>
+         </item>
+         <item row="23" column="0">
+          <widget class="QgsFileWidget" name="occurances_D"/>
+         </item>
+         <item row="17" column="0" colspan="2">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Occurances B</string>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="0">
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>Occurances D (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="19" column="0">
+          <widget class="QLabel" name="label_22">
+           <property name="text">
+            <string>Occurances C (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="29" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Occurances F (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="0">
+          <widget class="QgsFileWidget" name="occurances_C"/>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>Variable 1 raster</string>
+           </property>
+          </widget>
+         </item>
+         <item row="34" column="0">
+          <widget class="QgsFileWidget" name="occurances_H"/>
+         </item>
+         <item row="31" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Occurances G (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="35" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Occurances I (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="28" column="0">
+          <widget class="QgsFileWidget" name="occurances_E"/>
+         </item>
+         <item row="30" column="0">
+          <widget class="QgsFileWidget" name="occurances_F"/>
+         </item>
+         <item row="37" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Occurances J (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="36" column="0">
+          <widget class="QgsFileWidget" name="occurances_I"/>
+         </item>
+         <item row="38" column="0">
+          <widget class="QgsFileWidget" name="occurances_J"/>
+         </item>
+         <item row="10" column="0">
+          <widget class="QgsFileWidget" name="variable_2_raster">
+           <property name="defaultRoot">
+            <string>D:/biblioteca_suscetibilidade/Declive.tif</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QgsFileWidget" name="null_variable_raster">
+           <property name="defaultRoot">
+            <string>D:/biblioteca_suscetibilidade/raster_nulo.tif</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Null variable raster</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QgsFileWidget" name="modelation_area">
+           <property name="defaultRoot">
+            <string notr="true">D:/biblioteca_suscetibilidade/FozCoa.shp</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Training area</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QgsFileWidget" name="training_area">
+           <property name="fullUrl">
+            <bool>false</bool>
+           </property>
+           <property name="dialogTitle">
+            <string/>
+           </property>
+           <property name="defaultRoot">
+            <string>D:/biblioteca_suscetibilidade/Area_treino_3.shp</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Modelation area</string>
+           </property>
+          </widget>
+         </item>
+         <item row="39" column="0">
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="12" column="0">
+          <widget class="QgsFileWidget" name="variable_3_raster"/>
+         </item>
+         <item row="8" column="0">
+          <widget class="QgsFileWidget" name="variable_1_raster">
+           <property name="defaultRoot">
+            <string>D:/biblioteca_suscetibilidade/COS2018_N3.tif</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="0">
+          <widget class="QgsFileWidget" name="variable_4_raster"/>
+         </item>
+         <item row="13" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Variable 4 raster (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>Variable 3 raster (opcional)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Inputs</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="2" column="0">
+         <widget class="QgsFileWidget" name="out_dir">
+          <property name="defaultRoot">
+           <string>D:/biblioteca_suscetibilidade/teste/</string>
+          </property>
+          <property name="storageMode">
+           <enum>QgsFileWidget::GetDirectory</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_24">
+          <property name="text">
+           <string>Output directory</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Outputs</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="run_button">
+         <property name="text">
+          <string>Run</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsFileWidget</class>
+   <extends>QWidget</extends>
+   <header>qgsfilewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>run_button</sender>
+   <signal>clicked()</signal>
+   <receiver>SusceptibilityModelatorDialogBase</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>730</x>
+     <y>718</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>154</x>
+     <y>696</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
