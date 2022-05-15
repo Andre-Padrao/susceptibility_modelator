@@ -6,7 +6,7 @@ version=1.0
 author=André Padrão
 email=apadrao@floradata.pt
 
-about=Teste.This QGIS plugin facilitates the production and evaluation of susceptibility models for any type of spatially distributed risk. It is associated to the paper "A GIS plugin for wildfire susceptibility modeling: case study in Vila Nova de Foz Côa", by André Padrão et al., where one can find further details on its development and use.
+about=This QGIS plugin facilitates the production and evaluation of susceptibility models for any type of spatially distributed risk. It is associated to the paper "A GIS plugin for wildfire susceptibility modeling: case study in Vila Nova de Foz Côa", by André Padrão et al., where one can find further details on its development and use.
 
 # tracker=http://bugs
 repository=https://github.com/Andre-Padrao/susceptibility_modelator.git
