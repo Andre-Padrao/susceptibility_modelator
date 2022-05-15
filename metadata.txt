@@ -2,13 +2,13 @@
 name=Susceptibility Modelator
 qgisMinimumVersion=3.0
 description=Produces and validates susceptibility models for various risk factors
-version=0.1
+version=1.0
 author=André Padrão
 email=apadrao@floradata.pt
 
 about=This QGIS plugin facilitates the production and evaluation of susceptibility models for any type of spatially distributed risk. It is associated to the paper "A GIS plugin for wildfire susceptibility modeling: case study in Vila Nova de Foz Côa", by André Padrão et al., where one can find further details on its development and use.
 
-tracker=http://bugs
+# tracker=http://bugs
 repository=https://github.com/Andre-Padrao/susceptibility_modelator.git
 # End of mandatory metadata
 
@@ -21,7 +21,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=susceptibility modeling,python,spatial planning,environmental variables
 
-homepage=https://github.com/Andre-Padrao/susceptibility_modelator.git
+# homepage=https://github.com/Andre-Padrao/susceptibility_modelator.git
 category=Plugins
 icon=icon.png
 # experimental flag
